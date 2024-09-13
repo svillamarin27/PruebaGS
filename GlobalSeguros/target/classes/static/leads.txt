@@ -1,0 +1,237 @@
+Nombre del cliente: Cabeto
+NIT: 1010
+Nombre del punto: Prueba
+Nombre del equipo: Alpha
+Ciudad: Bogota
+Promotor: Kain
+RTC: kka
+Captcha: sasa
+------------------------------
+Nombre del cliente: Samuel
+NIT: 10191
+Nombre del punto: Prue
+Nombre del equipo: Cali
+Ciudad: Bogota
+Promotor: adidas
+RTC: asda
+Captcha: asdas
+------------------------------
+Nombre del cliente: Sebas
+NIT: 90101
+Nombre del punto: kjak
+Nombre del equipo: kjkla
+Ciudad: kjalj
+Promotor: kjalkd
+RTC: kjla
+Captcha: lkjal
+------------------------------
+Nombre del cliente: juan
+NIT: 1111
+Nombre del punto: akaka
+Nombre del equipo: ola
+Ciudad: medellin
+Promotor: nike
+RTC: 9191
+Captcha: kjaka
+------------------------------
+Nombre del cliente: pedro
+NIT: 999
+Nombre del punto: junto
+Nombre del equipo: nike
+Ciudad: cali
+Promotor: nikke
+RTC: kaka
+Captcha: www
+------------------------------
+Nombre del cliente: pedro
+NIT: 999
+Nombre del punto: junto
+Nombre del equipo: nike
+Ciudad: cali
+Promotor: nikke
+RTC: kaka
+Captcha: www
+------------------------------
+Nombre del cliente: Cabeto
+NIT: asad
+Nombre del punto: Prueba
+Nombre del equipo: Alpha
+Ciudad: Bogota
+Promotor: dad
+RTC: sdad
+Captcha: as
+------------------------------
+Nombre del cliente: Cabeto
+NIT: da
+Nombre del punto: Prueba
+Nombre del equipo: Alpha
+Ciudad: dadas
+Promotor: Kain
+RTC: sdad
+Captcha: ass
+------------------------------
+Nombre del cliente: Cabeto
+NIT: da
+Nombre del punto: Prueba
+Nombre del equipo: Alpha
+Ciudad: dadas
+Promotor: Kain
+RTC: sdad
+Captcha: ass
+------------------------------
+Nombre del cliente: Cabeto
+NIT: asad
+Nombre del punto: aaaaaaaaaaaaaa
+Nombre del equipo: Alpha
+Ciudad: Bogota
+Promotor: dad
+RTC: sdad
+Captcha: aaaaa
+------------------------------
+Nombre del cliente: alex
+NIT: aaaaaaaaa
+Nombre del punto: dddddd
+Nombre del equipo: ssssssss
+Ciudad: aaaa
+Promotor: rr
+RTC: rrr
+Captcha: eee
+------------------------------
+Nombre del cliente: eeeeeeee
+NIT: eeeeeee
+Nombre del punto: eeeeee
+Nombre del equipo: ddddddd
+Ciudad: ddddddd
+Promotor: eeee
+RTC: eee
+Captcha: qqq
+------------------------------
+Nombre del cliente: Cabeto
+NIT: qqqq
+Nombre del punto: qq
+Nombre del equipo: qq
+Ciudad: qqq
+Promotor: q
+RTC: q
+Captcha: qq
+------------------------------
+Nombre del cliente: aaaaaaa
+NIT: a
+Nombre del punto: aa
+Nombre del equipo: a
+Ciudad: aa
+Promotor: a
+RTC: a
+Captcha: a
+------------------------------
+Nombre del cliente: aaaaa
+NIT: aa
+Nombre del punto: a
+Nombre del equipo: s
+Ciudad: e
+Promotor: ee
+RTC: e
+Captcha: e
+------------------------------
+Nombre del cliente: s
+NIT: s
+Nombre del punto: aa
+Nombre del equipo: sss
+Ciudad: a
+Promotor: a
+RTC: s
+Captcha: a
+------------------------------
+Nombre del cliente: a
+NIT: a
+Nombre del punto: a
+Nombre del equipo: a
+Ciudad: Medellin
+Promotor: a
+RTC: a
+Captcha: a
+------------------------------
+Nombre del cliente: Cabeto
+NIT: asad
+Nombre del punto: Prueba
+Nombre del equipo: Alpha
+Ciudad: Bogota
+Promotor: dad
+RTC: pp
+Captcha: kk
+------------------------------
+Nombre del cliente: aaaa
+NIT: dadsa
+Nombre del punto: ada
+Nombre del equipo: dadas
+Ciudad: Bogota
+Promotor: ss
+RTC: 5
+Captcha: dads
+------------------------------
+Nombre del cliente: ads
+NIT: adsd
+Nombre del punto: asdas
+Nombre del equipo: asda
+Ciudad: Bogota
+Promotor: ads
+RTC: 0
+Captcha: asa
+------------------------------
+Nombre del cliente: asa 
+NIT: asas
+Nombre del punto: as
+Nombre del equipo: asd
+Ciudad: Bogota
+Promotor: dad
+RTC: 2
+Captcha: sada
+------------------------------
+Nombre del cliente: oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+NIT: asad
+Nombre del punto: Prueba
+Nombre del equipo: Alpha
+Ciudad: Bogota
+Promotor: dad
+RTC: 2
+Captcha: 222
+------------------------------
+Nombre del cliente: asdasd
+NIT: 1d
+Nombre del punto: das
+Nombre del equipo: adsd
+Ciudad: Bogota
+Promotor: adsd
+RTC: 1
+Captcha: 12
+------------------------------
+Nombre del cliente: asa
+NIT: adasd
+Nombre del punto: adsd
+Nombre del equipo: asd
+Ciudad: Bogota
+Promotor: asd
+RTC: 1
+Captcha: da
+Fecha y hora: 2024-09-12T07:57:28.368981900
+------------------------------
+Nombre del cliente: Cabeto
+NIT: asad
+Nombre del punto: Prueba
+Nombre del equipo: Alpha
+Ciudad: Bogota
+Promotor: dad
+RTC: 0
+Captcha: ds
+Fecha y hora: 2024-09-12T19:12:24.403578600
+------------------------------
+Nombre del cliente: adda
+NIT: aaaa
+Nombre del punto: aa
+Nombre del equipo: dd
+Ciudad: Bogota
+Promotor: dad
+RTC: 3
+Captcha: as
+Fecha y hora: 2024-09-12T20:21:14.760592900
+------------------------------

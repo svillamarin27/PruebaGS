@@ -1,0 +1,30 @@
+Nombre del cliente: Samuel
+NIT: 91919
+Nombre del punto: Puente
+Nombre del equipo: Team
+Ciudad: Medellin
+Promotor: Juan
+RTC: 8
+Captcha: prueba
+Fecha y hora: 2024-09-12T20:56:12.579991
+------------------------------
+Nombre del cliente: Emilio
+NIT: 9191
+Nombre del punto: Suba
+Nombre del equipo: Team
+Ciudad: Cali
+Promotor: Juan
+RTC: 3
+Captcha: adasda
+Fecha y hora: 2024-09-12T21:44:34.809509900
+------------------------------
+Nombre del cliente: Emilia
+NIT: 91911
+Nombre del punto: Suba
+Nombre del equipo: Team
+Ciudad: Bogota
+Promotor: Juan
+RTC: 6
+Captcha: adasda
+Fecha y hora: 2024-09-12T21:45:23.987470200
+------------------------------

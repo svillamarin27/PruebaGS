@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Global Seguros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('GS-FONDO.png'); /* Ruta de la imagen de fondo */
+            background-size: 3000px 3000px; /* Ajusta el fondo para cubrir toda la pantalla */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que se repita la imagen */
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .left-section img {
+            max-width: 45%;
+            height: auto;
+        }
+
+        .left-section h1 {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        .form-section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 450px;
+            height: auto;
+            margin-left: -800px;
+            transform: translateX(0);
+        }
+
+        .form-section h2 {
+            margin-bottom: 20px;
+            color: #673ab7;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-group input:focus {
+            border-color: #673ab7;
+            outline: none;
+        }
+
+        .form-group .checkbox {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .form-group .checkbox input {
+            margin-right: 5px;
+        }
+
+        .form-group .checkbox a {
+            color: #673ab7;
+            text-decoration: none;
+        }
+
+        .submit-btn {
+            width: 100%;
+            background-color: #673ab7;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background-color: #562a98;
+        .auth-btn {
+            width: 100%;
+            background-color: #FF5733;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="left-section">
+        <img src="GS-Imagen.png">
+
+    </div>
+    <div class="form-section">
+        <h2>Inscripción punto de venta</h2>
+        <form action="api/leads/save" method="POST">
+            <div class="form-group">
+                <label for="nombre-cliente">Nombre del cliente</label>
+                <input type="text" id="nombre-cliente" name="nombreCliente" maxlength="100" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" title="Solo se permiten letras y espacios" required>
+            </div>
+            <div class="form-group">
+                <label for="nit">NIT</label>
+                <input type="text" id="nit" name="nit" pattern="[^#?,¿]*" title="No se permiten los caracteres: # , ¿ ?" required>
+            </div>
+            <div class="form-group">
+                <label for="nombre-punto">Nombre del punto</label>
+                <input type="text" id="nombre-punto" name="nombrePunto" pattern="[^#?,¿]*" title="No se permiten los caracteres: # , ¿ ?" required>
+            </div>
+            <div class="form-group">
+                <label for="nombre-equipo">Nombre del equipo</label>
+                <input type="text" id="nombre-equipo" name="nombreEquipo" pattern="[^#?,¿]*" title="No se permiten los caracteres: # , ¿ ?" required>
+            </div>
+            <div class="form-group">
+                <label for="ciudad">Ciudad</label>
+                <select id="ciudad" name="ciudad" required>
+                    <option value="">Seleccione una ciudad</option>
+                    <option value="Bogota">Bogotá</option>
+                    <option value="Medellin">Medellín</option>
+                    <option value="Cali">Cali</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="promotor">Promotor</label>
+                <input type="text" id="promotor" name="promotor" pattern="[^#?,¿]*" title="No se permiten los caracteres: # , ¿ ?" required>
+            </div>
+            <div class="form-group">
+                <label for="rtc">RTC</label>
+                <input type="number" id="rtc" name="rtc" min="0" max="9" required>
+            </div>
+            <div class="form-group">
+                <label for="captcha">Captcha (solo minúsculas)</label>
+                <input type="text" id="captcha" name="captcha" pattern="[^#?,¿]*" title="No se permiten los caracteres: # , ¿ ?" required>
+            </div>
+            <button type="submit" class="submit-btn">Siguiente</button>
+        </form>
+        <form action="/auth.html" method="GET">
+            <button type="submit" class="auth-btn">Autenticación</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

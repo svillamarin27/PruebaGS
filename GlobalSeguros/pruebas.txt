@@ -1,0 +1,104 @@
+Pruebas que sí cumplen con todas las restricciones:
+1. Prueba con datos válidos para todos los campos
+Nombre del cliente: Juan Pérez
+NIT: 123456789
+Nombre del punto: Centro Comercial 1
+Nombre del equipo: Equipo 123
+Ciudad: Bogotá
+Promotor: Carlos Martínez
+RTC: 987
+Captcha: ABC123
+Resultado esperado: El formulario se envía correctamente.
+2. Prueba con el nombre del cliente de exactamente 100 caracteres
+Nombre del cliente: Juan Carlos de la Cruz González Ramírez Sánchez Pérez Gómez López Martínez... (100 caracteres)
+NIT: 876543210
+Nombre del punto: Centro Comercial 2
+Nombre del equipo: Equipo A
+Ciudad: Medellín
+Promotor: Ana Torres
+RTC: 123
+Captcha: XYZ456
+Resultado esperado: El formulario se envía correctamente.
+3. Prueba con NIT solo numérico y RTC con valores válidos entre 0 y 9
+Nombre del cliente: Maria López
+NIT: 234567890
+Nombre del punto: Centro Comercial 3
+Nombre del equipo: Equipo Z
+Ciudad: Cali
+Promotor: Luis Pérez
+RTC: 456
+Captcha: LMN789
+Resultado esperado: El formulario se envía correctamente.
+4. Prueba con caracteres válidos en el nombre del cliente y sin caracteres especiales
+Nombre del cliente: Alfredo Gómez
+NIT: 345678901
+Nombre del punto: Centro Comercial 4
+Nombre del equipo: Equipo 1
+Ciudad: Bogotá
+Promotor: Juan López
+RTC: 321
+Captcha: 123ABC
+Resultado esperado: El formulario se envía correctamente.
+5. Prueba con todos los campos sin caracteres prohibidos (#, ?, ¿)
+Nombre del cliente: Catalina Ramirez
+NIT: 654321987
+Nombre del punto: Punto B
+Nombre del equipo: Equipo X
+Ciudad: Medellín
+Promotor: Fernando Castro
+RTC: 678
+Captcha: XYZ654
+Resultado esperado: El formulario se envía correctamente.
+--------------------------------------------------------------------------------------------------------
+
+Pruebas que no cumplen con las restricciones:
+6. Prueba con nombre del cliente que supera los 100 caracteres
+Nombre del cliente: Juan Carlos de la Cruz González Ramírez Sánchez Pérez Gómez López Martínez González Ramírez Sánchez Pérez Gómez López... (más de 100 caracteres)
+NIT: 123456789
+Nombre del punto: Centro Comercial 1
+Nombre del equipo: Equipo 123
+Ciudad: Bogotá
+Promotor: Carlos Martínez
+RTC: 987
+Captcha: ABC123
+Resultado esperado: El formulario no se envía. Aparece un mensaje de error indicando que el campo excede los 100 caracteres.
+7. Prueba con caracteres prohibidos en el nombre del cliente (como #, ¿, ?)
+Nombre del cliente: María# Ramírez¿
+NIT: 876543210
+Nombre del punto: Centro Comercial 2
+Nombre del equipo: Equipo A
+Ciudad: Medellín
+Promotor: Ana Torres
+RTC: 123
+Captcha: XYZ456
+Resultado esperado: El formulario no se envía. Aparece un mensaje de error indicando que el campo contiene caracteres no permitidos.
+8. Prueba con NIT no numérico
+Nombre del cliente: Sofía Gómez
+NIT: ABC123456
+Nombre del punto: Centro Comercial 3
+Nombre del equipo: Equipo Z
+Ciudad: Cali
+Promotor: Luis Pérez
+RTC: 456
+Captcha: LMN789
+Resultado esperado: El formulario no se envía. Aparece un mensaje de error indicando que el campo NIT debe contener solo números.
+9. Prueba con RTC fuera del rango permitido (mayor a 9)
+Nombre del cliente: Alberto Gómez
+NIT: 345678901
+Nombre del punto: Centro Comercial 4
+Nombre del equipo: Equipo 1
+Ciudad: Bogotá
+Promotor: Juan López
+RTC: 12345 (más de un dígito permitido)
+Captcha: 123ABC
+Resultado esperado: El formulario no se envía. Aparece un mensaje de error indicando que el campo RTC debe contener solo números de un dígito (0-9).
+10. Prueba con campos vacíos (por ejemplo, NIT y nombre del cliente)
+Nombre del cliente: (vacío)
+NIT: (vacío)
+Nombre del punto: Punto B
+Nombre del equipo: Equipo X
+Ciudad: Medellín
+Promotor: Fernando Castro
+RTC: 678
+Captcha: XYZ654
+Resultado esperado: El formulario no se envía. Aparece un mensaje de error indicando que los campos obligatorios no pueden estar vacíos.
